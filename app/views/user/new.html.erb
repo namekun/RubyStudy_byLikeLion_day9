@@ -1,0 +1,5 @@
+<%= form_tag("/users") do %>
+    <%= text_field_tag(:user_id, nil, placeholder:'id를 입력해주세요' )%>
+    <%= password_field_tag(:password, nil ,placeholder: "비밀번호를 입력하세요")%>
+    <%= submit_tag("가입하기") %>
+<%end%>

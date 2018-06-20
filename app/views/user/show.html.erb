@@ -1,0 +1,5 @@
+<h2><%= @user.user_id%></h2>
+<hr>
+<p>LAST LOGIN AT <%= @user.ip_address%></p>
+<%= link_to "목록", "/users" %>
+<%= link_to "정보수정", "/user/#{@user.id}/edit"%>
